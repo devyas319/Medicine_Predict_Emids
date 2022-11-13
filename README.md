@@ -2,8 +2,9 @@
 Here is a machine learning model which will predict medicine, dosage and frequency on the basis doctor's input and patients information<br>
 
 1. **Run main.py <br>**
-2. keep both data files and main.py in same directory<br>
-3. libraries required will be<br>
+2. (Steps to run streamlit are given at end if required)
+3. keep both data files and main.py in same directory<br>
+4. libraries required will be<br>
    pandas<br>
    streamlit<br>
    sklearn<br>
@@ -20,3 +21,7 @@ Here is a machine learning model which will predict medicine, dosage and frequen
 
 **Model.py**
 ![4](https://user-images.githubusercontent.com/117074676/201496054-487e5589-f7b9-42ce-8bdd-e81a42c762b7.png)
+
+**To run streamlit**<br>
+* open command prompt in directory where main.py and dataset are situated
+* Then write command:: streamlit run main.py
